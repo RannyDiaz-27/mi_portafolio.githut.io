@@ -1,0 +1,86 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+body{
+    display: flex;
+    background-image: url(img/fondo.jpg);
+    background-color: rgb(50, 50, 50);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.header_principal{
+    background-color: #0a0e14;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.foto{
+    margin: 1rem 0;
+    width: 25%;
+    border-radius: 30%;
+}
+.header_nombres{
+    font-family: "montserrat";
+    font-size: 2rem;
+    color:  white;
+}
+.header_fefleccion_texto{
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    color:  white;
+}
+.header_imagen{
+    margin-top: 7rem;
+    width: 38%;
+}
+.sobremi_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.parrafo_titulo{
+    margin-top: 4.5rem;
+    font-size: 2rem;
+    color: white;
+}
+.parrafo_presentacion{
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: white;
+}
+.boton{
+    margin: 7rem auto;
+  
+}
+.boton a{
+    text-decoration: none;
+    padding: 1rem 3.5rem;
+    background-color: orange;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 20px;
+    transition-duration: 1.2s;
+}
+.boton:hover, .boton a:hover{
+    background-color: darkgreen;
+    font-size: 1.3rem ;
+    transition: 1.2s;
+}
+
